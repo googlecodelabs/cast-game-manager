@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+<!--
+Copyright 2015 Google Inc. All Rights Reserved.
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+-->
+    <title>Game</title>
+    <style>
+      body {
+          margin: 0px;
+          overflow: hidden;
+          text-align:center;
+          color: white;
+      }
+      table {
+        margin: 0 auto;
+        border-collapse: collapse;
+        background: black;
+      }
+      .wrapper {
+        margin: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 id="title">Game</h1>
+    <h3 id="info"></h3>
+    <div class="wrapper">
+      <table id="grid">
+      </table>
+    </div>
+    <script>
+    // Create a grid of table items
+    var table = document.getElementById("grid");
+    var rows = 20;
+    var columns = rows;
+    var height = (window.innerHeight - 110*2) / rows;
+    for(var i=0; i<rows; i++) {
+      var row = table.insertRow();
+      for(var j=0; j<columns; j++) {
+        var cell = row.insertCell();
+        cell.setAttribute("id", (j+1) + i*rows);
+        cell.setAttribute("width", height);
+        cell.setAttribute("height", height);
+      }
+    }
+    </script>
+    <!-- Make sure cast receiver SDK is loaded before games receiver SDK. -->
+    <script src="https://www.gstatic.com/cast/sdk/libs/receiver/2.0.0/cast_receiver.js"></script>
+    <script src="https://www.gstatic.com/cast/sdk/libs/games/1.0.0/cast_games_receiver.js"></script>
+    <script src="game.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
