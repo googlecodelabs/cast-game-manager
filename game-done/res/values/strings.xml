@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Copyright 2015 Google Inc. All Rights Reserved.
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+-->
+<resources>
+
+    <string name="app_id">BAC9B3CD</string>
+    <string name="app_name">Game Manager Codelab</string>
+    <string name="media_route_menu_title">Play on&#8230;</string>
+    <string name="connect_label">Connect to the Google Cast device to start playing</string>
+    <string name="game_connection_error_message">Game Connection Error</string>
+    <string name="game_dialog_ok_button_text">OK</string>
+    <string name="enter_your_name">Enter your name</string>
+    <string name="all_guesses_entered">All Guesses Entered</string>
+    <string name="all_other_players_have_guessed">All other players have guessed.</string>
+    <string name="oh">Oh!</string>
+    <string name="you_ran_out_of_time">You ran out of time!</string>
+    <string name="you_got_it">You got it!</string>
+    <string name="is_correct">%1$s is correct!</string>
+    <string name="no">No!</string>
+    <string name="is_wrong_the_real_answer_was">%1$s is wrong. The real answer was %2$s</string>
+    <string name="words">
+        time,people,man,day,child,mister,government,woman,number,world,house,hand,party,school,
+        country,family,head,night,eye,home,question,power,money,book,water,car,line,face,road,door,
+        hour,right,mother,period,center,police,city,million,cost,type,programme,girl,Father,force,
+        health,street,mind,church,paper,bank,hundred,table,Death,staff,town,morning,letter,foot,boy,
+        art,teacher,voice,arm,club,window,light,wife,pound,tax,nature,bed,hospital,wall,computer,
+        bit,son,south,king,secretary,picture,thousand,shop,animal,evening,heart,doctor,hair,love,
+        music,piece,tree,plant,pressure,fire,garden,rest,space,sea,step,couple,hotel,station,cup,
+        cell,lady,skull,sound,floor,science,college,horse,answer,army,dog,look,brother,husband,
+        element,glass,leg,park,summer,baby,daughter,sun,box,river,stone,oil,disease,goal,sign,fish,
+        library,blood,island,television,bar,talk,no,star,mouth,second,chair,Earth,card,sister,bird,
+        fear,miss,option,quarter,match,radio,railway,target,corner,finger,forest,afternoon,ball,
+        kitchen,peace,scale,speech,hill,shoulder,tea,marriage,farm,file,newspaper,branch,copy,
+        spirit,train,gas,museum,shape,artist,queen,exercise,fig,credit,half,bag,gold,link,skin,boat,
+        dad,prison,wine,winter,injury,key,painting,phone,drink,judge,ship,visitor,volume,background,
+        cabinet,engine,smile,victim,yard,bus,coffee,investigation,mountain,song,dinner,football,
+        tour,wood,bridge,flat,gentleman,lip,sheet,audience,code,loan,prince,theatre,freedom,
+        magazine,plate,rain,writing,dream,factory,spring,victory,aircraft,decade,egg,reduction,
+        bedroom,enterprise,middle,murder,neck,run,tape,weapon,acid,bottle,ear,store,teaching,
+        transfer,wave,channel,cut,lunch,photograph,temperature,waste,block,experiment,guide,nurse,
+        silence,captain,journey,map,noise,pool,scientist,search,sequence,sky,sum,trip,violence,cat,
+        display,gate,gun,heat,location,professor,reading,combination,drive,learning,prospect,
+        soldier,tool,tooth,troop,breath,castle,coal,crown,flow,lane,mistake,motion,release,total,
+        Jack-o-lantern,stormtrooper,lion,alien,Thor,spacewalk,velocoraptor
+        attack,anime,jaws,clockwork,orange,anonymous,tangled,minion,tombstone,magic
+        lamp,dragon,pi,pie,birthday cake,songbird,parrot,Friday,Android developer,lungs,spotted
+        frog,big bad wolf,adorable bunny,juggling,axe throwing,counting sheep,unfortunate
+        hat,awesome hat,granulated sugar,extreme skiing,my house,wicked witch,surprised,spinach
+        puff,broccoli,squid,released kraken,superwhale
+    </string>
+    <string name="clear">Clear</string>
+    <string name="done">Done</string>
+    <string name="button_join">Join</string>
+    <string name="button_start">Start</string>
+</resources>
