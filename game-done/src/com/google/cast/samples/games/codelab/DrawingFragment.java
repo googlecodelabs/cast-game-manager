@@ -500,9 +500,10 @@ public class DrawingFragment extends GameFragment
      * Show the UI for a non-artist player
      */
     private void setGuessingUI() {
+        mAristUIView.setVisibility(View.GONE);
         mGuesserUIView.setVisibility(View.VISIBLE);
         mClearDoneLayoutView.setVisibility(View.GONE);
-        mGuesserUIView.setVisibility(View.GONE);
+        mGuessWordView.setVisibility(View.GONE);
 
         // Disable touch on drawview
         mDrawView.setTouchEnabled(false);
